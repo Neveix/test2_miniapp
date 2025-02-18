@@ -12,8 +12,6 @@
     <script>
         var WebApp = window.Telegram.WebApp;
 
-        WebApp.showAlert(`Добро пожаловать, @${WebApp.WebAppUser.username}.`);
-
         Telegram.WebApp.ready();
         function sendData() {
             const data = { message: "Привет от мини-приложения!" };
